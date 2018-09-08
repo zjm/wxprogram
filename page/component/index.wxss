@@ -73,6 +73,7 @@ swiper-item image {
     padding-left: 30rpx;
     padding-top:30rpx;
     width: 200rpx;
+    
 }
 .form-box textarea{
    padding-left: 30rpx; 
@@ -85,4 +86,27 @@ swiper-item image {
 }
 .form-box button{
     margin:30rpx 30rpx 0 0;
+}
+
+/* ================ */
+.f{
+  display: flex;
+}
+
+.f-end{
+  justify-content: flex-end;
+}
+
+.text-count-display{
+  padding: 2%;
+  /*color: rgb(223, 24, 24);*/
+}
+
+.textarea-count {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.textarea-count textarea{
+  width: 100%;
 }
