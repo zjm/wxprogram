@@ -69,7 +69,7 @@ swiper-item image {
     font-size: 32rpx;
 }
 
-.form-box{
+/* .form-box{
     padding-left: 30rpx;
     padding-top:30rpx;
     width: 200rpx;
@@ -86,7 +86,7 @@ swiper-item image {
 }
 .form-box button{
     margin:30rpx 30rpx 0 0;
-}
+} */
 
 /* ================ */
 .f{
@@ -108,5 +108,6 @@ swiper-item image {
 }
 
 .textarea-count textarea{
-  width: 100%;
+  /* width: 100%; */
+  height: 100rpx;
 }

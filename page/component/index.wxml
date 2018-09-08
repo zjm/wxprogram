@@ -6,19 +6,10 @@
             </swiper-item>
         </block>
     </swiper>
-    <view class="textarea-count">
-        <!-- <navigator url="search/search">
-            <view class="search-text">
-                <icon class="weui-icon-search_in-box search-icon" type="search" size="14"></icon>
-                搜 索
-            </view>
-        </navigator> -->
+    <view class="textarea-count">       
          <form bindsubmit="formSubmit">
          <textarea  placeholder="这是一个可以自动聚焦的textarea" bindinput="getWords" maxlength='{{maxTextLen}}' />
-            <!-- <input value="{{address.name}}" name="name" placeholder="例：谁能帮我引荐一下小罗浩。"/> -->
-            <!-- <input type="number" name="phone" value="{{address.phone}}" placeholder="电话号码"/>
-            <input name="detail" value="{{address.detail}}" placeholder="详细地址"/>
-            <button form-type="submit">保存</button> -->
+          
             <view class='text-count-display f f-end'  style="color:{{color}};" >{{textLen}}/{{maxTextLen}}</view>
         </form>
     </view>

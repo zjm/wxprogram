@@ -20,7 +20,7 @@ Page({
       maxTextLen: maxTextLen,
       textLen: textLen
     });
-    if (textLen == 40) {
+    if (textLen >= maxTextLen) {
       page.setData({
         color: "red"
       });
