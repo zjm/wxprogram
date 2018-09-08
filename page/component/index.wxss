@@ -47,6 +47,8 @@ swiper-item image {
 
 .newest-box{
     padding:0 40rpx;
+    background: #ffffff;
+    
 }
 .newest-box .newest-list{
     display: inline-block;
@@ -95,19 +97,29 @@ swiper-item image {
 
 .f-end{
   justify-content: flex-end;
+  width: 95%;
 }
 
+.newest-boxa{
+    padding:30rpx;
+    background: #ffffff; 
+}
 .text-count-display{
-  padding: 2%;
+  padding: 0%;
   /*color: rgb(223, 24, 24);*/
 }
 
+
+
 .textarea-count {
+  display: flex;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 1px;
+  width: 100%;
 }
 
 .textarea-count textarea{
   /* width: 100%; */
   height: 100rpx;
+  
 }

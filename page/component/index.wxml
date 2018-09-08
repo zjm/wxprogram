@@ -6,12 +6,14 @@
             </swiper-item>
         </block>
     </swiper>
+    <view class='newest-boxa'>
     <view class="textarea-count">       
          <form bindsubmit="formSubmit">
          <textarea  placeholder="这是一个可以自动聚焦的textarea" bindinput="getWords" maxlength='{{maxTextLen}}' />
           
             <view class='text-count-display f f-end'  style="color:{{color}};" >{{textLen}}/{{maxTextLen}}</view>
         </form>
+    </view>
     </view>
     <view class="selected">
         <view class="select-title"><text>精选主题</text></view>
