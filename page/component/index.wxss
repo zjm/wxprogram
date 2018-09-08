@@ -68,3 +68,21 @@ swiper-item image {
 .newest-box .newest-list .newest-text{
     font-size: 32rpx;
 }
+
+.form-box{
+    padding-left: 30rpx;
+    padding-top:30rpx;
+    width: 200rpx;
+}
+.form-box textarea{
+   padding-left: 30rpx; 
+    height: 120rpx;
+    border-bottom: 1rpx solid #ededed;
+    color: #999;
+}
+.form-box .textarea-placeholder{
+    color: #aaa;
+}
+.form-box button{
+    margin:30rpx 30rpx 0 0;
+}
